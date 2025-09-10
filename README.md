@@ -7,16 +7,10 @@
 ### 建立 Conda 環境
 
 ```bash
-# 建立新環境
-conda create -n whisper_train python=3.10 -y
-conda activate whisper_train
-
-# 安裝 PyTorch (CUDA 版本，根據系統 CUDA 版本調整)
-conda install pytorch torchaudio pytorch-cuda -c pytorch -c nvidia
+pip install torch torchaudio transformers datasets 
 
 # 安裝其他必需套件
-pip install transformers datasets accelerate evaluate jiwer
-pip install audiomentations matplotlib tqdm
+pip install audiomentations matplotlib tqdm jiwer
 ```
 
 ## 腳本概覽
