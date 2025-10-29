@@ -12,6 +12,14 @@ pip install torch torchaudio transformers datasets
 # 安裝其他必需套件
 pip install audiomentations matplotlib tqdm jiwer
 ```
+## 預訓練模型下載連結 (參照[Hugging Face OpenAI](https://huggingface.co/openai))
+* [tiny](https://huggingface.co/openai/whisper-tiny)
+* [base](https://huggingface.co/openai/whisper-base)
+* [small](https://huggingface.co/openai/whisper-small)
+* [medium](https://huggingface.co/openai/whisper-medium)
+* [large-v2](https://huggingface.co/openai/whisper-large-v2)
+* [large-v3](https://huggingface.co/openai/whisper-large-v3)
+* [large-v3-turbo](https://huggingface.co/openai/whisper-large-v3-turbo)
 
 ## 腳本概覽
 
